@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+
+    
+ <!--      <EditText
+        android:id="@+id/editTextMemberName"
+        android:hint="Member Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >  
+
+        <requestFocus />
+    </EditText> --> 
+
+    <EditText
+        android:id="@+id/editTextMedicine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:hint="Medicine"
+      />
+
+    <EditText
+        android:id="@+id/editTextDose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dose"
+      />
+    
+    <EditText
+        android:id="@+id/editTextDays"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Days"
+      />
+
+    <Button
+        android:id="@+id/buttonAddMedicine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Medicine"
+        android:layout_marginBottom="60dp" />
+
+</LinearLayout>
